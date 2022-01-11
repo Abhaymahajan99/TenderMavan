@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Tender.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Tender.test.CheckList">
+        <methods>
+          <include name="karnatakaMaharastraTenders"/>
+          <include name="PaymentFlow"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="TenderUtility"/>
+          <include name="SearchBar"/>
+          <include name="SignIn"/>
+          <include name="openBrowser"/>
+          <include name="AdvSearchField"/>
+        </methods>
+      </class> <!-- com.Tender.test.CheckList -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

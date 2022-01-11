@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.Tender.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+	
+
+  <test thread-count="5" name="Test">
+    <classes>
+     
+      <class name="com.Tender.test.Test_Footer"/>
+      <class name="com.Tender.test.Test_karnatakaMaharastraTenders"/>
+      <class name="com.Tender.test.Test_PaymentFlow"/>
+      <class name="com.Tender.test.Test_MyProfile"/>
+      <class name="com.Tender.test.Test_ListingAndDetailPage"/>
+      <class name="com.Tender.test.Test_BrowseByElement"/>
+      <class name="com.Tender.test.Test_LeftMenu"/>
+      <class name="com.Tender.test.Test_SearchBar"/>
+      <class name="com.Tender.test.Test_AdvanceSearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
